@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #000000e5;
+}
+
+.header{
+    color: #fff;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+}
+
+.logo h1{
+    font-size: 2.3em;
+}
+
+.logo span{
+    color: rgb(76, 211, 166);
+}
+
+.nav-bar{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar li{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar li a:hover{
+    color: #ffffffd8;
+}
+
+.middle-line{
+    border: 1px solid rgba(255, 255, 255, 0.671);
+    width: 80%;
+    margin: auto;
+}
+
+.section-p1{
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container{
+    border: 1px solid white;
+    font-size: 1.7em;
+    width: 500px;
+    height: 400px;
+}
+
+.title-container h1{
+    font-size: 3em;
+}
+
+.title-container span{
+    color: aquamarine;
+}
+
+.title-container h3{
+    padding-bottom: 20px;
+}
+
+.title-container p{
+    color: #ffffffce;
+    padding-bottom: 20px;
+}
+
+.title-container button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 0.7em;
+    border: none;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+}
+
+.title-container button:hover{
+    background-color: #f3ebebd0;
+    
+}
+
+.img{
+    border: 1px solid white;
+    width: 500px;
+    height: 600px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
