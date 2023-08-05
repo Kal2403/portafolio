@@ -1,0 +1,33 @@
+.home-container {
+  height: 100vh;
+  background-image: url('../../assets/Header-llustration-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-container_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.home-container_text h1 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.developer-text {
+  color: #36b37f;
+}
+
+.home-container_text p {
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
