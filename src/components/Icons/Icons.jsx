@@ -9,11 +9,11 @@ import gmail from '../../assets/medium.svg'
 const Icons = () => {
   return (
     <div className='icons-container'>
-      <li><a href="#"><img src={github} alt="github" /></a></li>
-      <li><a href="#"><img src={linkedin} alt="linkedin" /></a></li>
-      <li><a href="#"><img src={angelist} alt="angelist" /></a></li>
-      <li><a href="#"><img src={twitter} alt="twitter" /></a></li>
-      <li><a href="#"><img src={gmail} alt="gmail" /></a></li>
+      <li><a href=""><img src={github} alt="github" /></a></li>
+      <li><a href=""><img src={linkedin} alt="linkedin" /></a></li>
+      <li><a href=""><img src={angelist} alt="angelist" /></a></li>
+      <li><a href=""><img src={twitter} alt="twitter" /></a></li>
+      <li><a href=""><img src={gmail} alt="gmail" /></a></li>
     </div>
   )
 }
