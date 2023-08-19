@@ -51,12 +51,12 @@ export const cardTechData = [
   },
   {
     imagen: "",
-    name: "Lenguajes",
+    name: "Frameworks",
     listTech: ["Reacy", "Ruby", "RSpec", "Copy"],
   },
   {
     imagen: "",
-    name: "Lenguajes",
+    name: "Skills",
     listTech: ["DataBase", "CLI", "Version Control", "Web Development"],
   },
 ]
