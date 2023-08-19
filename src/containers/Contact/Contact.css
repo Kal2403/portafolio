@@ -1,0 +1,6 @@
+.contact-container {
+  background-image: url('../../assets/Frame@2x-5.png'), url('../../assets/illustration-2-contact-form-desktop@2x.png'), url('../../assets/Frame@2x-4.png');
+  background-repeat: no-repeat;
+  background-position: left, 20%, right;
+  background-size: 10%;
+}

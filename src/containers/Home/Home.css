@@ -1,9 +1,9 @@
 .home-container {
   height: 100vh;
-  background-image: url('../../assets/Header-llustration-desktop.svg');
+  background-image: url('../../assets/Header-llustration-desktop@2x.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
