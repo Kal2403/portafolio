@@ -3,11 +3,8 @@ import './Card.css';
 
 const Card = ({name, tecnologys, url, img}) => {
 
-  console.log(img)
-
   return (
     <div className='card-container'>
-      
       <img src={img} alt={name} />
       <h3>{name}</h3>
       <ul>

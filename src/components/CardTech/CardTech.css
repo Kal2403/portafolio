@@ -1,0 +1,24 @@
+.cardTech-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+}
+
+.cardTech-container img {
+  border: 1px solid black;
+  width: 100%;
+  height: 150px;
+}
+
+.cardTech-container_listTech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: 1px solid black;
+  padding-right: 25px;
+}
