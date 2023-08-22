@@ -1,62 +1,67 @@
+import pruebaImg from './assets/prueba1.jpg';
+import iconLenguajes from './assets/icon-languages.svg';
+import iconFramework from './assets/icon-frameworks.svg';
+import iconSkills from './assets/icon-skills.svg';
+
 export const projects = [
   {
     id: 1,
     name: "Multi-Post Stories Gain+Glory",
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
-    img: './assets/prueba1.jpg'
+    img: pruebaImg,
   },
   {
     id: 2,
     name: "Multi-Post Stories Gain+Glory",
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
-    img: "./assets/prueba1.jpg"
+    img: pruebaImg,
   },
   {
     id: 3,
     name: "Multi-Post Stories Gain+Glory",
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
-    img: "./assets/prueba1.jpg"
+    img: pruebaImg,
   },
   {
     id: 4,
     name: "Multi-Post Stories Gain+Glory",
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
-    img: "./assets/prueba1.jpg"
+    img: pruebaImg,
   },
   {
     id: 5,
     name: "Multi-Post Stories Gain+Glory",
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
-    img: "./assets/prueba1.jpg"
+    img: pruebaImg,
   },
   {
     id: 6,
     name: "Multi-Post Stories Gain+Glory",
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
-    img: ""
+    img: pruebaImg,
   }
 ]
 
 export const cardTechData = [
   {
-    imagen: "../assets/icon-languages.svg",
+    imagen: iconLenguajes,
     name: "Lenguajes",
     listTech: ["JavaScript", "Ruby", "HTML", "CSS"],
   },
   {
-    imagen: "",
+    imagen: iconFramework,
     name: "Frameworks",
-    listTech: ["Reacy", "Ruby", "RSpec", "Copy"],
+    listTech: ["JavaScript", "Ruby", "HTML", "CSS"],
   },
   {
-    imagen: "",
+    imagen: iconSkills,
     name: "Skills",
-    listTech: ["DataBase", "CLI", "Version Control", "Web Development"],
+    listTech: ["JavaScript", "Ruby", "HTML", "CSS"],
   },
 ]
