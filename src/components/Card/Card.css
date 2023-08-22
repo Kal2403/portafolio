@@ -8,14 +8,13 @@ a {
 
 .card-container {
   box-sizing: border-box;
-  border: 1px solid black;
-  min-width: 350px;
+  border: 1px solid #d0d9d4;
+  max-width: 350px;
   padding-bottom: 20px;
 }
 
 .card-container img {
-  border: 1px solid black;
-  width: 200px;
+  width: 100%;
 }
 
 .card-container h3 {
@@ -36,6 +35,16 @@ a {
 }
 
 .btn {
-  border: 1px solid black;
-  padding: 5px 20px;
+  border: none;
+  padding: 7px 20px;
+  background: #36b37f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #008552;
+  color: #fff;
 }

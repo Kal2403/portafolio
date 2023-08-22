@@ -1,6 +1,6 @@
 import React from 'react';
 import Icons from '../../components/Icons/Icons';
-import './Footer.css'
+import './Footer.css';
 
 const Footer = () => {
   return (
