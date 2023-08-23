@@ -1,0 +1,26 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container_name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.form-container_name input {
+  padding: 9px 0;
+  width: 50%;
+}
+
+.form-container_emailComments {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container_emailComments input {
+  padding: 9px 0;
+}

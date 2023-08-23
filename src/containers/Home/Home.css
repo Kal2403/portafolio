@@ -1,5 +1,4 @@
 .home-container {
-  height: 100vh;
   background-image: url('../../assets/Header-llustration-desktop@2x.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -7,6 +6,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 250px;
 }
 
 .home-container_text {

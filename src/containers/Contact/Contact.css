@@ -4,3 +4,34 @@
   background-position: left, 20%, right;
   background-size: 10%;
 }
+
+.contact-container_second {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.contact-container_text {
+  width: 50%;
+  font-size: 24px;
+}
+
+.contact-container_form {
+  width: 50%;
+}
+
+.form-btn {
+  border-radius: 4px;
+  padding: 12px;
+  background: #36b37f;
+  border: none;
+  width: 25%;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background: #36b37fc7;
+}
