@@ -4,8 +4,8 @@
   justify-content: center;
   align-items: center;
   background: #ebf0ee;
-  max-width: 430px;
-  max-height: 316px;
+  width: 100%;
+  min-height: 316px;
 }
 
 .cardTech-container_listTech {

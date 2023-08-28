@@ -1,8 +1,13 @@
-.about-container {
+.about-container_description {
   background-image: url('../../assets/illustration-about\ me-1-desktop.svg'), url('../../assets/illustration-about-me-2-desktop.svg');
   background-repeat: no-repeat, no-repeat;
   background-position: right, left;
   padding: 50px 0;
+}
+
+.about-container_second {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .about-container_text {
@@ -19,6 +24,8 @@
   flex-direction: row;
   justify-content: center;
   gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .about-btn {
