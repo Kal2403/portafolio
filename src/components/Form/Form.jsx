@@ -12,7 +12,6 @@ const Form = () => {
         <input type="email" placeholder='Email Addres'/>
         <textarea name="textarea" cols="30" rows="10" placeholder='Hey ld like to connect to...'></textarea>
       </div>
-      
       <button className='form-btn'>Get in touch</button>
     </div>
   )
