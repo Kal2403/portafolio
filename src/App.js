@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './containers/Home/Home';
 import { About } from './containers/About/About';
@@ -12,16 +11,20 @@ const App = () => {
 
   return (
     <div className="App">
-      <BrowserRouter>
-        <Nav />
-        <Routes>
-          <Route path='/home' element={<Home/>} />
-          <Route path='/portfolio' element={<Portfolio projects={projects}/>} />
-          <Route path='/about' element={<About cardTechData={cardTechData} />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-        <Footer/>
-      </BrowserRouter>
+      <Nav />
+      <section id="home">
+        <Home/>
+      </section>
+      <section id="portfolio">
+        <Portfolio projects={projects}/>
+      </section>
+      <section id="about">
+        <About cardTechData={cardTechData} />
+      </section>
+      <section id="contact">
+        <Contact/>
+      </section>
+      <Footer/>
     </div>
   );
 }
