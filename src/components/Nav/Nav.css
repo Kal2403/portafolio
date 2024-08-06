@@ -15,10 +15,6 @@ li {
   cursor: pointer;
 }
 
-a:hover {
-  color: #00000050;
-}
-
 .nav-container_ul {
   display: flex;
   justify-content: center;
@@ -62,6 +58,10 @@ a:hover {
     font-weight: 600;
     overflow: hidden;
     transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+  }
+
+  .nav-container_ul li:hover {
+    color: white;
   }
 
   .menu-container {
