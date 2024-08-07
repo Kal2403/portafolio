@@ -13,22 +13,24 @@ export const About = () => {
   return (
     <div className='about-container'>
       <div className='about-container_description'>
-        <div className='about-container_second'>
-          <h1>About me</h1>
-          <p className='about-container_text'> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
+        <h2>About me</h2>
+        <p className='about-container_text'> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
 don't hesitate to contact me.</p>
-          <button className='about-btn'>Get my resume</button>
-        </div>
+        <button className='about-btn'>Get my resume</button>
       </div>
       <div className='about-container_cardsTech'>
-        <FaHtml5 className='icon'/>
-        <FaCss3Alt className='icon'/>
-        <IoLogoJavascript className='icon'/>
-        <FaReact className='icon' />
-        <FaGitSquare className='icon' />
-        <FaGithub className='icon' />
-        <SiMongodb className='icon' />
-        <FaNode className='icon' />
+        <h2>Tecnologys</h2>
+        <div className='icon-container'>
+          <FaHtml5 className='icon'/>
+          <FaCss3Alt className='icon'/>
+          <IoLogoJavascript className='icon'/>
+          <FaReact className='icon' />
+          <FaGitSquare className='icon' />
+          <FaGithub className='icon' />
+          <SiMongodb className='icon' />
+          <FaNode className='icon' />  
+        </div>
+        
       </div>
     </div>
   )

@@ -1,13 +1,22 @@
-.about-container_description {
+.about-container {
   background-image: url('../../assets/illustration-about\ me-1-desktop.svg'), url('../../assets/illustration-about-me-2-desktop.svg');
   background-repeat: no-repeat, no-repeat;
   background-position: right, left;
-  padding: 50px 0;
 }
 
-.about-container_second {
-  max-width: 80%;
+.about-container_description {
+  padding: 50px 0;
+  width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+h2 {
+  font-size: 32px;
 }
 
 .about-container_text {
@@ -16,15 +25,6 @@
   text-align: center;
   color: #42526e;
   width: 80%;
-  margin: 0 auto;
-}
-
-.about-container_cardsTech {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -40,7 +40,58 @@
   font-size: 16px;
 }
 
+.about-container_cardsTech {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
 .icon {
-  font-size: 52px;
+  font-size: 70px;
+}
+
+.icon:nth-child(odd) {
   color: #36b37f;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    background-size: 25%;
+  }
+  
+  .about-container_description {
+    width: 90%;
+  }
+  
+  .about-container_text {
+    width: 100%;
+  }
+  
+  .about-btn {
+    font-size: 20px;
+  }
+  
+  .about-container_cardsTech {
+    padding-top: 0;
+    margin-top: 0;
+    gap: 0;
+    width: 90%;
+  }
+  
+  .icon-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 10px;
+  }
 }
