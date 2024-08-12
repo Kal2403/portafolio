@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './containers/Home/Home';
 import { About } from './containers/About/About';
-import { projects, cardTechData } from './data.js'
+import { projects } from './data.js';
 import Portfolio from './containers/Portfolio/Portfolio';
 import Contact from './containers/Contact/Contact';
 import Nav from './components/Nav/Nav.jsx';
@@ -19,7 +19,7 @@ const App = () => {
         <Portfolio projects={projects}/>
       </section>
       <section id="about">
-        <About cardTechData={cardTechData} />
+        <About />
       </section>
       <section id="contact">
         <Contact/>

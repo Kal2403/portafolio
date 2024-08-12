@@ -1,24 +1,25 @@
-.contact-container {
-  background-image: url('../../assets/Frame@2x-5.png'), url('../../assets/illustration-2-contact-form-desktop@2x.png'), url('../../assets/Frame@2x-4.png');
-  background-repeat: no-repeat;
-  background-position: left, 20%, right;
-  background-size: 10%;
+.contact {
+  width: 100%;
 }
 
-.contact-container_second {
+.contact-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   width: 80%;
   margin: 0 auto;
   padding: 50px 0;
 }
 
-.contact-container_text {
-  width: 50%;
-  font-size: 24px;
+.contact-container h2 {
+  width: 40%;
+  font-size: 32px;
+  color: #070f2b;
 }
 
 .contact-container_form {
-  width: 50%;
+  width: 60%;
 }
 
 .form-btn {

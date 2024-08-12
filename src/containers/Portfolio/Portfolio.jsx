@@ -6,7 +6,7 @@ const Portfolio = (props) => {
 
   return (
     <div id='portfolio-container'>
-      <h1>My Recent Works</h1>
+      <h2>My Recent Works</h2>
       <div className='cards-container'>
         {
           props.projects.map((proj) => (

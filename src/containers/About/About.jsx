@@ -30,7 +30,6 @@ don't hesitate to contact me.</p>
           <SiMongodb className='icon' />
           <FaNode className='icon' />  
         </div>
-        
       </div>
     </div>
   )

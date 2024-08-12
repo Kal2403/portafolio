@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Card.css';
+import PopUp from '../PopUp/PopUp';
 
-const Card = ({name, tecnologys, url, img}) => {
+const Card = ({name, tecnologys, img}) => {
+
+  const [isPopUpOpen, setIsPopUpOpen] = useState(false);
+
+  const openPopUp = () => {
+    setIsPopUpOpen(true);
+  };
+
+  const closePopUp = () => {
+    setIsPopUpOpen(false);
+  }
 
   return (
     <div className='card-container'>
@@ -14,7 +25,8 @@ const Card = ({name, tecnologys, url, img}) => {
           ))
         }
       </ul>
-      <a className='btn' href={url}>See Project</a>
+      <button className='btn' onClick={openPopUp}>See Project</button>
+      {isPopUpOpen && <PopUp closePopUp={closePopUp} name={name} tecnologys={tecnologys} img={img} />}
     </div>
   )
 }
