@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Card.css';
 import PopUp from '../PopUp/PopUp';
 
-const Card = ({name, tecnologys, img}) => {
+const Card = ({name, tecnologys, img, description}) => {
 
   const [isPopUpOpen, setIsPopUpOpen] = useState(false);
 
@@ -26,7 +26,7 @@ const Card = ({name, tecnologys, img}) => {
         }
       </ul>
       <button className='btn' onClick={openPopUp}>See Project</button>
-      {isPopUpOpen && <PopUp closePopUp={closePopUp} name={name} tecnologys={tecnologys} img={img} />}
+      {isPopUpOpen && <PopUp closePopUp={closePopUp} name={name} tecnologys={tecnologys} img={img} description={description} />}
     </div>
   )
 }

@@ -15,17 +15,33 @@
   background-color: white;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; 
-  max-width: 500px;
+  width: 80%;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content img {
+  width: 50%;
+}
+
+.popup-content-descrip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .close {
   color: #aaa;
-  float: right;
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
+  position: absolute;
+  top: 115px;
+  right: 150px;
 }
 
 .close:hover,

@@ -10,6 +10,7 @@ export const projects = [
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
     img: pruebaImg,
+    description: "Mi proyecto de e-commerce en React enfrentó varios desafíos, como manejar el estado global del carrito de compras y la autenticación del usuario. Para resolverlo, utilicé Context API y hooks personalizados, lo que me permitió mantener el código modular y fácil de mantener. También integré una API externa para el procesamiento de pagos, asegurando que la experiencia de compra sea segura y eficiente."
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ export const projects = [
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
     img: pruebaImg,
+    description: "Mi proyecto de e-commerce en React enfrentó varios desafíos, como manejar el estado global del carrito de compras y la autenticación del usuario. Para resolverlo, utilicé Context API y hooks personalizados, lo que me permitió mantener el código modular y fácil de mantener. También integré una API externa para el procesamiento de pagos, asegurando que la experiencia de compra sea segura y eficiente."
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ export const projects = [
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
     img: pruebaImg,
+    description: "Mi proyecto de e-commerce en React enfrentó varios desafíos, como manejar el estado global del carrito de compras y la autenticación del usuario. Para resolverlo, utilicé Context API y hooks personalizados, lo que me permitió mantener el código modular y fácil de mantener. También integré una API externa para el procesamiento de pagos, asegurando que la experiencia de compra sea segura y eficiente."
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ export const projects = [
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
     img: pruebaImg,
+    description: "Mi proyecto de e-commerce en React enfrentó varios desafíos, como manejar el estado global del carrito de compras y la autenticación del usuario. Para resolverlo, utilicé Context API y hooks personalizados, lo que me permitió mantener el código modular y fácil de mantener. También integré una API externa para el procesamiento de pagos, asegurando que la experiencia de compra sea segura y eficiente."
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ export const projects = [
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
     img: pruebaImg,
+    description: "Mi proyecto de e-commerce en React enfrentó varios desafíos, como manejar el estado global del carrito de compras y la autenticación del usuario. Para resolverlo, utilicé Context API y hooks personalizados, lo que me permitió mantener el código modular y fácil de mantener. También integré una API externa para el procesamiento de pagos, asegurando que la experiencia de compra sea segura y eficiente."
   },
   {
     id: 6,
@@ -45,6 +50,7 @@ export const projects = [
     tecnologys: ["React", "JavaScript", "HTML", "CSS"],
     url: "",
     img: pruebaImg,
+    description: "Mi proyecto de e-commerce en React enfrentó varios desafíos, como manejar el estado global del carrito de compras y la autenticación del usuario. Para resolverlo, utilicé Context API y hooks personalizados, lo que me permitió mantener el código modular y fácil de mantener. También integré una API externa para el procesamiento de pagos, asegurando que la experiencia de compra sea segura y eficiente."
   }
 ]
 

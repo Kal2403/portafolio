@@ -16,6 +16,7 @@ const Portfolio = (props) => {
               tecnologys={proj.tecnologys}
               url={proj.url}
               img={proj.img}
+              description={proj.description}
             />
           ))
         }
