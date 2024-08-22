@@ -1,32 +1,15 @@
-.form-container {
+.form {
   display: flex;
   flex-direction: column;
-  gap: 35px;
 }
 
-.form-container_name {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
+label {
+  width: 100%;
+  text-align: left;
 }
 
-.form-container_name input {
-  padding: 9px 0;
-  width: 50%;
-  border-radius: 4px;
-  border: 1px solid #d0d9d4;
-}
-
-.form-container_emailComments {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-}
-
-.form-container_emailComments input {
-  padding: 9px 0;
-  border-radius: 4px;
-  border: 1px solid #d0d9d4;
+input {
+  width: 100%;
 }
 
 input::placeholder {
@@ -39,6 +22,7 @@ input:hover {
 }
 
 textarea {
+  width: 100%;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
 }

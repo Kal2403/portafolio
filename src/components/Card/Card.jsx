@@ -21,7 +21,7 @@ const Card = ({name, tecnologys, img, description}) => {
       <ul>
         {
           tecnologys.map(element => (
-            <li><a href="">{element}</a></li>
+            <li>{element}</li>
           ))
         }
       </ul>
