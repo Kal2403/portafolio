@@ -52,6 +52,18 @@ h2 {
   width: 100%;
 }
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15);
+  }
+}
+
 .icon {
   font-size: 70px;
   color: #070f2b;
@@ -59,6 +71,13 @@ h2 {
 
 .icon:nth-child(odd) {
   color: #36b37f;
+  display: inline-block;
+  animation: bounce 2s infinite;
+}
+
+.icon:nth-child(even) {
+  display: inline-block;
+  animation: bounce 4s infinite;
 }
 
 @media only screen and (max-width: 600px) {
