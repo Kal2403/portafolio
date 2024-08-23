@@ -35,6 +35,10 @@ h2 {
   font-size: 16px;
 }
 
+.about-btn:hover {
+  background: #008552;
+}
+
 .about-container_cardsTech {
   width: 80%;
   margin: 0 auto;
