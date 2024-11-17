@@ -22,7 +22,7 @@
 .home-container_text h1 {
   font-size: 48px;
   line-height: 48px;
-  color: #070f2b;
+  color: var(--primary-color);
 }
 
 .developer-text {

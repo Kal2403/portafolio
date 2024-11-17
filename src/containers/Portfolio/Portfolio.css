@@ -4,7 +4,7 @@
 
 h2 {
   font-size: 32px;
-  color: #070f2b;
+  color: var(--primary-color);
 }
 
 .cards-container {

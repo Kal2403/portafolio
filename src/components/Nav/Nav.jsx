@@ -3,7 +3,7 @@ import './Nav.css';
 import { Link } from 'react-scroll';
 import { MdOutlineMenu } from "react-icons/md";
 
-const Nav = () => {
+const Nav = ({ toggleTheme, darkMode }) => {
 
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -24,8 +24,13 @@ const Nav = () => {
         <li><Link to='about' smooth={true} duration={700} onClick={closeMenu}>About</Link></li>
         <li><Link to='contact' smooth={true} duration={700} onClick={closeMenu}>Contact</Link></li>
       </ul>
-      <div onClick={toggleMenu} className="me55nu-container">
+      <div onClick={toggleMenu} className="menu-container">
         <MdOutlineMenu className='menu'/>
+      </div>
+      <div className='button-container'>
+        <button onClick={toggleTheme} className='btn-dark'>
+          {darkMode ? 'Light Mode' : 'Dark Mode'}
+        </button>
       </div>
     </div>
   )

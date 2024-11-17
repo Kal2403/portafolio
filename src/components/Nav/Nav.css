@@ -1,12 +1,13 @@
 .nav-container {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
-  background-color: #ffffffcb;
+  background-color: var(--background-color);
   height: 60px;
+  z-index: 100;
 }
 
 .nav-container h2 {
@@ -14,7 +15,7 @@
   width: 30%;
   cursor: pointer;
   margin: 0;
-  color: #070f2b;
+  color: var(--primary-color);
 }
 
 .nav-container span {
@@ -39,7 +40,7 @@
 }
 
 .nav-container ul li:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--hover-color)
 }
 
 .menu-container {
@@ -49,6 +50,23 @@
 
 .menu {
   display: none;
+}
+
+.button-container {
+  margin-right: 30px;
+}
+
+.btn-dark {
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 2px 20px;
+  background: #36b37f;
+  color: #fff;
+  border: none;
+}
+
+.btn-dark:hover {
+  background: #008552;
 }
 
 /* Mobile*/
